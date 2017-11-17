@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>메인페이지</title>
+<title>메인페이지야~~수정수정</title>
 <style>
 #topbar {
 	width:80%;
