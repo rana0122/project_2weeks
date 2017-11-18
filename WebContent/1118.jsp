@@ -107,9 +107,9 @@
 #footer {
 	text-align: center;
 	background-color: #f1f1f1;
-	font-size: 0.625em;
+	font-size: 10px;
 	width: 96%;
-	height: 10%;
+	height: 15%;
 }
 </style>
 
@@ -255,9 +255,7 @@
 
 		
 <div id="footer">
-			<p>This web page is a part of a demonstration of fluid web design
-				made by www.w3schools.com. Resize the browser window to see the
-				content response to the resizing.</p>
+			<p> 진짜 왜 안되는지 모르겠다.. 뭐가 불만인거니 css 고수님 만나고싶다...</p>
 		</div>
 
 
