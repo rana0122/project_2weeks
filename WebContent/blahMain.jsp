@@ -6,8 +6,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>메인페이지야~~수정수정</title>
 <style>
+body{
+	background-color: #ffe6e6;
+	border-style: solid;
+    border-width: 5px;
+}
+
 #topbar {
-	width: 80%;
+	width: 100%;
 	background-color: #4d4d4d;
 }
 
@@ -25,30 +31,25 @@
 	display: block;
 }
 
-#Menubar  .menuLink:hover {
+#Menubar  .menuLink:hover {				/* 스포츠(메뉴) 에 마우스오버할때 글씨색 바뀜*/
 	color: red;
 	background-color: #4d4d4d;
 }
 
-#Menubar  .submenuLink:hover {
+#Menubar  .submenuLink:hover {			/* 스포츠1 에 마우스오버할때 글씨색 바뀜*/
 	color: red;
 	background-color: #e6e6e6;
 }
 
-#Menubar  ul li {
-	color: white; /* 글씨 색을 흰색으로 설정 */
+#Menubar  ul li {    /*스포츠, 취업 등 메뉴 */
+	color: white; 
 	background-color: #2B3137;
-	float: left; /* 왼쪽으로 나열되도록 설정 */
-	line-height: 30px; /* 텍스트 한 줄의 높이를 30px로 설정 */
-	vertical-align: middle; /* 세로 정렬을 가운데로 설정 */
+	float: left; 											/* 왼쪽으로 나열되도록 설정 */
+	line-height: 40px;								 /* 텍스트 한 줄의 높이를 30px로 설정 */
 	text-align: center; /* 텍스트를 가운데로 정렬 */
-	position: relative; /* 해당 li 태그 내부의 top/left 포지션 초기화 */
-}
-
-.menuLink {
 	text-decoration: none; /* a 태그의 꾸밈 효과 제거 */
 	display: block; /* a 태그의 클릭 범위를 넓힘 */
-	width: 16.03%;
+	width: 20%;
 	font-size: 12px; /* 폰트 사이즈를 12px로 설정 */
 	font-weight: bold; /* 폰트를 굵게 설정 */
 }
@@ -58,25 +59,37 @@
 	background-color: white; /* 배경색을 흰색으로 설정 */
 	text-decoration: none; /* a 태그의 꾸밈 효과 제거 */
 	display: block; /* a 태그의 클릭 범위를 넓힘 */
-	width: 200px;
+	width: 100%;
 	font-size: 12px; /* 폰트 사이즈를 12px로 설정 */
 	font-weight: bold; /* 폰트를 굵게 설정 */
 	margin-top: -1px; /* 위 칸의 하단 테두리와 아래칸의 상단 테두리가 겹쳐지도록 설정 */
+}
+.submenu{
+	position:absolute;
+	height: 0px;
+	overflow: hidden;
+	width: 100%;
+	
+	background-color: #DDD;
+	
+}
+.submenu li{
+	display:inline-block;
+	
 }
 
 #footer {
 	text-align: center;
 	background-color: #f1f1f1;
-	border: 1px solid #e9e9e9;
 	font-size: 0.625em;
-	width: 80%;
+	width: 100%;
 }
 
 #subject1 {
-	width: 80%;
+	width: 100%;
 	margin-bottom: 20px;
 	background-color: #f1f1f1;
-	border: 1px solid #e9e9e9;
+	
 }
 /*         @media only screen (max-width: 1024px) {
             #all {
@@ -136,7 +149,7 @@
 		</div>
 </div>
 		<div id="subject1">
-asd
+		노답~~노답~~
 			<br> <br> <br> <br> <br> <br> <br>
 			<br> <br> <br> <br> <br> <br> <br>
 			<br> <br> <br> <br> <br> <br> <br>
