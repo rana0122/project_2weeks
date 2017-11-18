@@ -16,7 +16,7 @@
 #header { /* 헤더 */
 	width: 96%;
 	height: 20%;
-	background-color: #066cfa;
+	background-color: #2B3137;
 	border-bottom: 1px solid black;
 }
 
@@ -34,7 +34,7 @@
 #content { /* 본문 */
 	width: 96%;
 	height: 70%;
-	background-color: #cce6ff;
+	
 }
 
 
@@ -44,8 +44,8 @@
 }
 
 .menubarLink .subLink:hover {
-	color: #ffcccc;
-	background-color: #ffffb3;
+	color:black;
+	background-color: #f1f1f1;
 }
 
 .menubarLink:hover .submenu {
@@ -63,7 +63,7 @@
 	padding-left: 0px;
 	line-height: 40px;
 	width: 18.2%;
-	background: #c00;
+	background: #2B3137;
 	color: #fff;
 	font-size: 12px;
 	font-family: "돋움";
@@ -90,8 +90,8 @@
 	text-align: center;
 }
 .column {
-   float: left;
-   width: 38%;
+   display:inline-block;
+   width: 20%;
    padding: 20px;
    margin: 30px;
    height: 300px; /* Should be removed. Only for demonstration */
@@ -102,6 +102,14 @@
    content: "";
    display: table;
    clear: both;
+}
+
+#footer {
+	text-align: center;
+	background-color: #f1f1f1;
+	font-size: 0.625em;
+	width: 96%;
+	height: 10%;
 }
 </style>
 
@@ -246,7 +254,11 @@
 		<!-- 컨텐트끝 -->
 
 		
-
+<div id="footer">
+			<p>This web page is a part of a demonstration of fluid web design
+				made by www.w3schools.com. Resize the browser window to see the
+				content response to the resizing.</p>
+		</div>
 
 
 
