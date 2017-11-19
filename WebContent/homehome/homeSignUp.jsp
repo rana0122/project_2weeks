@@ -31,58 +31,60 @@
 			<!-- container -->
 			<div id="header">
 				<h1 class="header-text">회원가입(homeSignUp.jsp)</h1>
+				
+				
+			<div id="Meme">
+				<!--  메뉴바 -->
+				<ul class="menubarLink">
+					<li class="menuLink">스포츠
+						<ul class="submenu">
+							<li><a class="subLink">스포츠1</a></li>
+							<li><a class="subLink">스포츠2</a></li>
+							<li><a class="subLink">스포츠3</a></li>
+						</ul>
+					</li>
+
+					<li class="menuLink">게임
+						<ul class="submenu">
+							<li><a class="subLink">게임1</a></li>
+							<li><a class="subLink">게임2</a></li>
+							<li><a class="subLink">게임3</a></li>
+						</ul>
+					</li>
+
+					<li class="menuLink">취업
+						<ul class="submenu">
+							<li><a class="subLink">이력서 작성</a></li>
+							<li><a class="subLink">이력서 수정</a></li>
+							<li><a class="subLink">이력서 공유하기</a></li>
+						</ul>
+					</li>
+
+					<li class="menuLink">뷰티
+						<ul class="submenu">
+							<li><a class="subLink">뷰티1</a></li>
+							<li><a class="subLink">뷰티2</a></li>
+							<li><a class="subLink">뷰티3</a></li>
+						</ul>
+					</li>
+
+					<li class="menuLink">슬프다
+						<ul class="submenu">
+							<li><a class="subLink"> 왜</a></li>
+							<li><a class="subLink">이렇게</a></li>
+							<li><a class="subLink">안되는거야</a></li>
+						</ul>
+					</li>
+
+				</ul>
+
+			</div>
+			<!-- 메뉴바끝 -->
 			</div>
 
 			<div id="content">
 				<!-- 컨텐트 -->
 
-				<div id="Meme">
-					<!--  메뉴바 -->
-					<ul class="menubarLink">
-						<li class="menuLink">스포츠
-							<ul class="submenu">
-								<li><a class="subLink">스포츠1</a></li>
-								<li><a class="subLink">스포츠2</a></li>
-								<li><a class="subLink">스포츠3</a></li>
-							</ul>
-						</li>
-
-						<li class="menuLink">게임
-							<ul class="submenu">
-								<li><a class="subLink">게임1</a></li>
-								<li><a class="subLink">게임2</a></li>
-								<li><a class="subLink">게임3</a></li>
-							</ul>
-						</li>
-
-						<li class="menuLink">취업
-							<ul class="submenu">
-								<li><a class="subLink">이력서 작성</a></li>
-								<li><a class="subLink">이력서 수정</a></li>
-								<li><a class="subLink">이력서 공유하기</a></li>
-							</ul>
-						</li>
-
-						<li class="menuLink">뷰티
-							<ul class="submenu">
-								<li><a class="subLink">뷰티1</a></li>
-								<li><a class="subLink">뷰티2</a></li>
-								<li><a class="subLink">뷰티3</a></li>
-							</ul>
-						</li>
-
-						<li class="menuLink">슬프다
-							<ul class="submenu">
-								<li><a class="subLink"> 왜</a></li>
-								<li><a class="subLink">이렇게</a></li>
-								<li><a class="subLink">안되는거야</a></li>
-							</ul>
-						</li>
-
-					</ul>
-
-				</div>
-				<!-- 메뉴바끝 -->
 			</div>
 			<div id="BA">
 				<form method=post action="#">

@@ -23,10 +23,7 @@
 <div id="container">
 <div id="header">
 			<h1 class="header-text">로그인(homeSignin.jsp)</h1>
-		</div>
-	<div id="content">
-			<!-- 컨텐트 -->
-
+			
 			<div id="Meme">
 				<!--  메뉴바 -->
 				<ul class="menubarLink">
@@ -74,6 +71,11 @@
 
 			</div>
 			<!-- 메뉴바끝 -->
+			
+		</div>
+	<div id="content">
+			<!-- 컨텐트 -->
+
 <div id="content">
 <form action="">
 		<div class = "ACC">
