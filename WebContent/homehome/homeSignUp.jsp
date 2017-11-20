@@ -178,7 +178,7 @@
 
 </head>
 <body>
-	<form action="">
+
 		<div id="container">
 			<!-- container -->
 			<div id="header">

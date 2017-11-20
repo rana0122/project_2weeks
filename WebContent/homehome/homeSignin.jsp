@@ -230,7 +230,7 @@
 			<div id="content">
 				<div class="form_all">
 					<div class="page_menutitle">로그인</div>
-					<form name="logon" id="logon" action="/Pjs/MemberloginAction.mb"
+					<form name="logon" id="logon" action="#"
 						method="post">
 						<table>
 							<tr>

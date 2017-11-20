@@ -3,6 +3,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 
@@ -19,6 +21,7 @@
 	height: 20%;
 	background-color: #2B3137;
 }
+
 /*---------------------------------------------*/
 .loginM {
 	text-align: center;
@@ -133,24 +136,24 @@
 
 <body>
 	<div id="container">
+
 		<!-- container -->
 		<div id="header">
-							<div class="main">
-			<div class="loginM">
-			<div class="homeimg"><a href="#" ><img src="img/homeLogo.png" width="100px" height="60px"></img>
-			</a></div>
-			<div class="signIU">
-			<a href="">HOME</a>&nbsp&nbsp <a href="">MYPAGE</a>&nbsp&nbsp 
-			<input type="search" placeholder="search"></input>
-
-			<button type="submit" form="search">
-						<img src="img/serch.png" width="20px" height="20px"></img>
-					</button>
-			
-					<a href="">SIGN IN</a>&nbsp&nbsp <a href="">SIGN UP</a></div>
+			<div class="main">
+				<div class="loginM">
+					<div class="homeimg">
+						<a href="#"><span
+							class="glyphicon glyphicon-education"></span></a>
+					</div>
+					<div class="signIU">
+						<a href="">HOME</a>&nbsp;&nbsp; <a href="">MYPAGE</a>&nbsp;&nbsp;
+						<input type="text"> <a href="#"><span
+							class="glyphicon glyphicon-search"></span></a> &nbsp;&nbsp; <a
+							href="">SIGN IN</a>&nbsp;&nbsp; <a href="">SIGN UP</a>
+					</div>
+				</div>
 			</div>
-		</div>
-				<div id="Meme">
+			<div id="Meme">
 				<!--  메뉴바 -->
 				<ul class="menubarLink">
 					<li class="menuLink">스포츠
@@ -202,90 +205,90 @@
 		<div id="content">
 			<!-- 컨텐트 -->
 
-		
-<div class="row">
-         <div class="column" style="background-color: #aaa;">
-            <h2>board1</h2>
-            <ul>
-               <li>1</li>
-               <li>2</li>
-               <li>3</li>
-               <li>4</li>
-               <li>5</li>
-               <li>6</li>
-               <li>7</li>
-            </ul>
-         </div>
-         <div class="column" style="background-color: #bbb;">
-            <h2>board2</h2>
-            <ul>
-               <li>1</li>
-               <li>2</li>
-               <li>3</li>
-               <li>4</li>
-               <li>5</li>
-               <li>6</li>
-               <li>7</li>
-            </ul>
-         </div>
-         
-         <div class="column" style="background-color: #aaa;">
-            <h2>board1</h2>
-            <ul>
-               <li>1</li>
-               <li>2</li>
-               <li>3</li>
-               <li>4</li>
-               <li>5</li>
-               <li>6</li>
-               <li>7</li>
-            </ul>
-         </div>
-         <div class="column" style="background-color: #bbb;">
-            <h2>board2</h2>
-            <ul>
-               <li>1</li>
-               <li>2</li>
-               <li>3</li>
-               <li>4</li>
-               <li>5</li>
-               <li>6</li>
-               <li>7</li>
-            </ul>
-         </div>
-         <div class="column" style="background-color: #aaa;">
-            <h2>board1</h2>
-            <ul>
-               <li>1</li>
-               <li>2</li>
-               <li>3</li>
-               <li>4</li>
-               <li>5</li>
-               <li>6</li>
-               <li>7</li>
-            </ul>
-         </div>
-         <div class="column" style="background-color: #bbb;">
-            <h2>board2</h2>
-            <ul>
-               <li>1</li>
-               <li>2</li>
-               <li>3</li>
-               <li>4</li>
-               <li>5</li>
-               <li>6</li>
-               <li>7</li>
-            </ul>
-         </div>
-</div>
+
+			<div class="row">
+				<div class="column" style="background-color: #aaa;">
+					<h2>board1</h2>
+					<ul>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>7</li>
+					</ul>
+				</div>
+				<div class="column" style="background-color: #bbb;">
+					<h2>board2</h2>
+					<ul>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>7</li>
+					</ul>
+				</div>
+
+				<div class="column" style="background-color: #aaa;">
+					<h2>board1</h2>
+					<ul>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>7</li>
+					</ul>
+				</div>
+				<div class="column" style="background-color: #bbb;">
+					<h2>board2</h2>
+					<ul>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>7</li>
+					</ul>
+				</div>
+				<div class="column" style="background-color: #aaa;">
+					<h2>board1</h2>
+					<ul>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>7</li>
+					</ul>
+				</div>
+				<div class="column" style="background-color: #bbb;">
+					<h2>board2</h2>
+					<ul>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>7</li>
+					</ul>
+				</div>
+			</div>
 			<br> <br> <br> <br> <br>
 
 		</div>
 		<!-- 컨텐트끝 -->
 
-		
-<div id="footer">
-			<p> 진짜 왜 안되는지 모르겠다.. 뭐가 불만인거니 css 고수님 만나고싶다...</p>
+
+		<div id="footer">
+			<p>진짜 왜 안되는지 모르겠다.. 뭐가 불만인거니 css 고수님 만나고싶다...</p>
 		</div>
 
 
@@ -296,6 +299,9 @@
 
 	</div>
 	<!-- container끝 -->
-
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

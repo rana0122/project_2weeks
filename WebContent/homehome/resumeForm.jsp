@@ -3,6 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>이력서(resumeForm.jsp)</title>
 <style type="text/css">
@@ -169,8 +170,26 @@
 		<div id="container">
 			<!-- container -->
 			<div id="header">
+			<div class="main">
+		
+					<div class="homeimg">
+			
+	
 				<h1 class="header-text">이력서작성(resumeForm.jsp)</h1>
 				
+				<div class="loginM">
+		
+						<a href="#"><span
+							class="glyphicon glyphicon-education"></span> </a>
+					</div>
+					<div class="signIU">
+						<a href="">HOME</a>&nbsp;&nbsp; <a href="">MYPAGE</a>&nbsp;&nbsp;
+						<input type="text"> <a href="#"><span
+							class="glyphicon glyphicon-search"></span></a> &nbsp;&nbsp; <a
+							href="">SIGN IN</a>&nbsp;&nbsp; <a href="">SIGN UP</a>
+					</div>
+				</div>
+			</div>
 				
 			<div id="Meme">
 				<!--  메뉴바 -->
@@ -286,6 +305,9 @@
 			<p> 2017-11-20 이력서작성 폼</p>
 		</div>
 </div>
-
+<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
