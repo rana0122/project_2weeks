@@ -18,26 +18,39 @@
 	width: 96%;
 	height: 20%;
 	background-color: #2B3137;
-
 }
-
-.header-text {
-	font-size: 32px;
-	color: white;
+/*---------------------------------------------*/
+.loginM {
 	text-align: center;
-	line-height: 120px;
+	padding: 20px;
+	margin: 20px;
 }
 
-#meme { /* 메뉴바 */
-	
+.loginM a {
+	text-decoration: none;
+	color: white;
 }
 
+.loginM a:hover {
+	color: red;
+}
+
+.signIU {
+	float: right;
+}
+
+.main {
+	height: 100px;
+}
+
+.homeimg {
+	float: left;
+}
+/*----------------------------------------------------*/
 #content { /* 본문 */
 	width: 96%;
 	height: 70%;
-	
 }
-
 
 }
 .menubarLink:hover {
@@ -45,7 +58,7 @@
 }
 
 .menubarLink .subLink:hover {
-	color:black;
+	color: black;
 	background-color: #f1f1f1;
 }
 
@@ -58,7 +71,7 @@
 }
 
 .menuLink {
-	display:inline-block;
+	display: inline-block;
 	text-align: center;
 	list-style: none;
 	padding-left: 0px;
@@ -90,19 +103,20 @@
 	list-style: none;
 	text-align: center;
 }
+
 .column {
-   display:inline-block;
-   width: 20%;
-   padding: 20px;
-   margin: 30px;
-   height: 300px; /* Should be removed. Only for demonstration */
+	display: inline-block;
+	width: 20%;
+	padding: 20px;
+	margin: 30px;
+	height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
 .row:after {
-   content: "";
-   display: table;
-   clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 #footer {
@@ -121,7 +135,21 @@
 	<div id="container">
 		<!-- container -->
 		<div id="header">
-			<h1 class="header-text">로고</h1>
+							<div class="main">
+			<div class="loginM">
+			<div class="homeimg"><a href="#" ><img src="img/homeLogo.png" width="100px" height="60px"></img>
+			</a></div>
+			<div class="signIU">
+			<a href="">HOME</a>&nbsp&nbsp <a href="">MYPAGE</a>&nbsp&nbsp 
+			<input type="search" placeholder="search"></input>
+
+			<button type="submit" form="search">
+						<img src="img/serch.png" width="20px" height="20px"></img>
+					</button>
+			
+					<a href="">SIGN IN</a>&nbsp&nbsp <a href="">SIGN UP</a></div>
+			</div>
+		</div>
 				<div id="Meme">
 				<!--  메뉴바 -->
 				<ul class="menubarLink">
