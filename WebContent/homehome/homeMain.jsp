@@ -5,17 +5,123 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="home.css">
+<style>
+#container {
+	width: 80%;
+	padding: 5%;
+	border-style: solid;
+	border-width: 5px;
+}
+
+#header { /* 헤더 */
+	width: 96%;
+	height: 20%;
+	background-color: #2B3137;
+
+}
+
+.header-text {
+	font-size: 32px;
+	color: white;
+	text-align: center;
+	line-height: 120px;
+}
+
+#meme { /* 메뉴바 */
+	
+}
+
+#content { /* 본문 */
+	width: 96%;
+	height: 70%;
+	
+}
+
+
+}
+.menubarLink:hover {
+	color: black;
+}
+
+.menubarLink .subLink:hover {
+	color:black;
+	background-color: #f1f1f1;
+}
+
+.menubarLink:hover .submenu {
+	display: inline;
+}
+
+.menubarLink {
+	width: 96%;
+}
+
+.menuLink {
+	display:inline-block;
+	text-align: center;
+	list-style: none;
+	padding-left: 0px;
+	line-height: 40px;
+	width: 17.5%;
+	background: #2B3137;
+	color: #fff;
+	font-size: 12px;
+	font-family: "돋움";
+	padding: 5px;
+	font-weight: bold;
+}
+
+.menuLink:hover { /* 스포츠(메뉴) 에 마우스오버할때 글씨색 바뀜*/
+	color: white;
+	background: #099;
+}
+
+.submenu {
+	display: none;
+	list-style: none;
+	padding-left: 0px;
+}
+
+.subLink {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+}
+.column {
+   display:inline-block;
+   width: 20%;
+   padding: 20px;
+   margin: 30px;
+   height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+#footer {
+	text-align: center;
+	background-color: #f1f1f1;
+	font-size: 10px;
+	width: 96%;
+	height: 15%;
+}
+</style>
+
+
 </head>
 
 <body>
-<form action="">
 	<div id="container">
 		<!-- container -->
 		<div id="header">
 			<h1 class="header-text">로고</h1>
-			
-						<div id="Meme">
+				<div id="Meme">
 				<!--  메뉴바 -->
 				<ul class="menubarLink">
 					<li class="menuLink">스포츠
@@ -67,7 +173,7 @@
 		<div id="content">
 			<!-- 컨텐트 -->
 
-
+		
 <div class="row">
          <div class="column" style="background-color: #aaa;">
             <h2>board1</h2>
@@ -161,6 +267,6 @@
 
 	</div>
 	<!-- container끝 -->
-</form>
+
 </body>
 </html>
