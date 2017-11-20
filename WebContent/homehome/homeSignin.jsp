@@ -246,7 +246,7 @@
 						</table>
 						<div class="button_div">
 							<input type="submit" value="로그인" class="button_type1"
-								onclick="location='/Pjs/MemberloginAction.mb'" /> <input
+								onclick="#'" /> <input
 								type="reset" value="취소" class="button_type1">
 						</div>
 					</form>
