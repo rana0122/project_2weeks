@@ -5,95 +5,124 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+
 <style>
-#all {
-	width: 96%;
-	margin: 0 auto;
-}
-
-header { /* 헤더 */
-	width: 100%;
-	height: 20%;
-	background-color: #066cfa;
-	border-bottom: 1px solid black;
-	margin-bottom: -20px;
-}
-
-.header-text {
-	font-size: 32px;
-	color: white;
-	text-align: center;
-	line-height: 120px;
-}
-
-.content { /* 본문 */
-	float: right;
+#container {
 	width: 80%;
-	height: 70%;
-	padding: 1.5625%;
-	background-color: #ffd800;
+	padding: 5%;
+	border-style: solid;
+	border-width: 5px;
 }
 
-.left-side { /* 사이드 바 */
+#header { /* 헤더 */
+	width: 96%;
+	height: 20%;
+	background-color: #2B3137;
+
+}
+.loginM {
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+}
+
+.loginM a {
+	text-decoration: none;
+	color: white;
+}
+
+.loginM a:hover {
+	color: red;
+}
+.signIU{
+	float: right;
+}
+.main{
+	height: 100px;
+}
+.homeimg{
 	float: left;
-	width: 13.75%;
-	height: 400px;
-	padding: 1.5625%;
-	background-color: #00ff90;
 }
 
-footer { /* 푸터 */
-	clear: both;
-	width: 100%;
-	height: 10%;
-	background-color: #c3590a;
+#content { /* 본문 */
+	width: 96%;
+	height: 70%;
+	
 }
 
+
+}
 .menubarLink:hover {
 	color: black;
 }
 
 .menubarLink .subLink:hover {
-	color: #ffcccc;
-	background-color: #ffffb3;
+	color:black;
+	background-color: #f1f1f1;
 }
 
 .menubarLink:hover .submenu {
-	display: block;
+	display: inline;
+}
+
+.menubarLink {
+	width: 96%;
 }
 
 .menuLink {
+	display:inline-block;
 	text-align: center;
 	list-style: none;
-	float: left;
+	padding-left: 0px;
 	line-height: 40px;
-	width: 20%;
-	background-color: #ffcccc;
-	font-size: 20px;
+	width: 17.5%;
+	background: #2B3137;
+	color: #fff;
+	font-size: 12px;
+	font-family: "돋움";
+	padding: 5px;
 	font-weight: bold;
 }
 
 .menuLink:hover { /* 스포츠(메뉴) 에 마우스오버할때 글씨색 바뀜*/
 	color: white;
-	background-color: #4d4d4d;
+	background: #099;
 }
 
 .submenu {
 	display: none;
 	list-style: none;
+	padding-left: 0px;
 }
 
 .subLink {
-	float: left;
 	display: block;
 	text-align: center;
 	text-decoration: none;
 	list-style: none;
-	width: 100%;
+	text-align: center;
 }
-/*다단*/
 .column {
-	
+   display:inline-block;
+   width: 20%;
+   padding: 20px;
+   margin: 30px;
+   height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+#footer {
+	text-align: center;
+	background-color: #f1f1f1;
+	font-size: 10px;
+	width: 96%;
+	height: 15%;
 }
 </style>
 
@@ -101,60 +130,81 @@ footer { /* 푸터 */
 </head>
 
 <body>
-	<div id="all">
-		<header>
-		<h1 class="header-text">로고</h1>
-		</header>
+	<div id="container">
+		<!-- container -->
+		<div id="header">
+				<div class="main">
 
+			<div class="loginM">
+			<div class="homeimg"><a href="#" ><img src="img/homeLogo.png" width="100px" height="60px"></img>
+			</a></div>
+			<div class="signIU">
+			<a href="">HOME</a>&nbsp&nbsp <a href="">MYPAGE</a>&nbsp&nbsp 
+			<input type="search" placeholder="search"></input>
 
-		<div>
-			<ul class="menubarLink">
-				<li class="menuLink">스포츠
-					<ul class="submenu">
-						<li><a class="subLink">스포츠1</a></li>
-						<li><a class="subLink">스포츠2</a></li>
-						<li><a class="subLink">스포츠3</a></li>
-					</ul>
-				</li>
+			<button type="submit" form="search">
+						<img src="img/serch.png" width="20px" height="20px"></img>
+					</button>
+			
+					<a href="">SIGN IN</a>&nbsp&nbsp <a href="">SIGN UP</a></div>
+			</div>
 
-				<li class="menuLink">게임
-					<ul class="submenu">
-						<li><a class="subLink">게임1</a></li>
-						<li><a class="subLink">게임2</a></li>
-						<li><a class="subLink">게임3</a></li>
-					</ul>
-				</li>
+			
+		</div>
+				<div id="Meme">
+				<!--  메뉴바 -->
+				<ul class="menubarLink">
+					<li class="menuLink">스포츠
+						<ul class="submenu">
+							<li><a class="subLink">스포츠1</a></li>
+							<li><a class="subLink">스포츠2</a></li>
+							<li><a class="subLink">스포츠3</a></li>
+						</ul>
+					</li>
 
-				<li class="menuLink">취업
-					<ul class="submenu">
-						<li><a class="subLink">이력서 작성</a></li>
-						<li><a class="subLink">이력서 수정</a></li>
-						<li><a class="subLink">이력서 공유하기</a></li>
-					</ul>
-				</li>
+					<li class="menuLink">게임
+						<ul class="submenu">
+							<li><a class="subLink">게임1</a></li>
+							<li><a class="subLink">게임2</a></li>
+							<li><a class="subLink">게임3</a></li>
+						</ul>
+					</li>
 
-				<li class="menuLink">뷰티
-					<ul class="submenu">
-						<li><a class="subLink">뷰티1</a></li>
-						<li><a class="subLink">뷰티2</a></li>
-						<li><a class="subLink">뷰티3</a></li>
-					</ul>
-				</li>
+					<li class="menuLink">취업
+						<ul class="submenu">
+							<li><a class="subLink">이력서 작성</a></li>
+							<li><a class="subLink">이력서 수정</a></li>
+							<li><a class="subLink">이력서 공유하기</a></li>
+						</ul>
+					</li>
 
-				<li class="menuLink">FOUR
-					<ul class="submenu">
-					<li><a class="subLink">뷰티1</a></li>
-				<li><a class="subLink">뷰티2</a></li>
-					<li><a class="subLink">뷰티3</a></li>
-			</ul>
-				</li>
-				
-</ul>			
+					<li class="menuLink">뷰티
+						<ul class="submenu">
+							<li><a class="subLink">뷰티1</a></li>
+							<li><a class="subLink">뷰티2</a></li>
+							<li><a class="subLink">뷰티3</a></li>
+						</ul>
+					</li>
 
-</div>		
-		<section class="content">
-			<h4>본문</h4>
-			<div class="row">
+					<li class="menuLink">슬프다
+						<ul class="submenu">
+							<li><a class="subLink"> 왜</a></li>
+							<li><a class="subLink">이렇게</a></li>
+							<li><a class="subLink">안되는거야</a></li>
+						</ul>
+					</li>
+
+				</ul>
+
+			</div>
+			<!-- 메뉴바끝 -->
+		</div>
+
+		<div id="content">
+			<!-- 컨텐트 -->
+
+		
+<div class="row">
          <div class="column" style="background-color: #aaa;">
             <h2>board1</h2>
             <ul>
@@ -179,8 +229,9 @@ footer { /* 푸터 */
                <li>7</li>
             </ul>
          </div>
-         <div class="column" style="background-color: #ccc;">
-            <h2>board3</h2>
+         
+         <div class="column" style="background-color: #aaa;">
+            <h2>board1</h2>
             <ul>
                <li>1</li>
                <li>2</li>
@@ -191,8 +242,8 @@ footer { /* 푸터 */
                <li>7</li>
             </ul>
          </div>
-         <div class="column" style="background-color: #ccc;">
-            <h2>board4</h2>
+         <div class="column" style="background-color: #bbb;">
+            <h2>board2</h2>
             <ul>
                <li>1</li>
                <li>2</li>
@@ -203,8 +254,8 @@ footer { /* 푸터 */
                <li>7</li>
             </ul>
          </div>
-         <div class="column" style="background-color: #ccc;">
-            <h2>board5</h2>
+         <div class="column" style="background-color: #aaa;">
+            <h2>board1</h2>
             <ul>
                <li>1</li>
                <li>2</li>
@@ -215,8 +266,8 @@ footer { /* 푸터 */
                <li>7</li>
             </ul>
          </div>
-         <div class="column" style="background-color: #ccc;">
-            <h2>board6</h2>
+         <div class="column" style="background-color: #bbb;">
+            <h2>board2</h2>
             <ul>
                <li>1</li>
                <li>2</li>
@@ -227,14 +278,25 @@ footer { /* 푸터 */
                <li>7</li>
             </ul>
          </div>
-      </div>
-		</section>
-		<aside class="left-side">
-			<h4>사이드바</h4>
-		</aside>
-		<footer>
-			<h4>푸터</h4>
-		</footer>
+</div>
+			<br> <br> <br> <br> <br>
+
+		</div>
+		<!-- 컨텐트끝 -->
+
+		
+<div id="footer">
+			<p> 진짜 왜 안되는지 모르겠다.. 뭐가 불만인거니 css 고수님 만나고싶다...</p>
+		</div>
+
+
+
+
+
+
+
 	</div>
+	<!-- container끝 -->
+
 </body>
 </html>
