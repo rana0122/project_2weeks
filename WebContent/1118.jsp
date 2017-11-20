@@ -17,7 +17,7 @@
 	width: 96%;
 	height: 20%;
 	background-color: #2B3137;
-	border-bottom: 1px solid black;
+
 }
 
 .header-text {
@@ -53,16 +53,16 @@
 }
 
 .menubarLink {
-	
+	width: 96%;
 }
 
 .menuLink {
-	float: left;
+	display:inline-block;
 	text-align: center;
 	list-style: none;
 	padding-left: 0px;
 	line-height: 40px;
-	width: 18.2%;
+	width: 17.5%;
 	background: #2B3137;
 	color: #fff;
 	font-size: 12px;
@@ -121,12 +121,7 @@
 		<!-- container -->
 		<div id="header">
 			<h1 class="header-text">로고</h1>
-		</div>
-
-		<div id="content">
-			<!-- 컨텐트 -->
-
-			<div id="Meme">
+				<div id="Meme">
 				<!--  메뉴바 -->
 				<ul class="menubarLink">
 					<li class="menuLink">스포츠
@@ -173,6 +168,12 @@
 
 			</div>
 			<!-- 메뉴바끝 -->
+		</div>
+
+		<div id="content">
+			<!-- 컨텐트 -->
+
+		
 <div class="row">
          <div class="column" style="background-color: #aaa;">
             <h2>board1</h2>

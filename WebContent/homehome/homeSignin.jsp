@@ -3,6 +3,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>로그인</title>
 <style>
@@ -25,10 +28,35 @@
 	text-align: center;
 	line-height: 120px;
 }
-
-#meme { /* 메뉴바 */
-	
+/*---------------------------------------------*/
+.loginM {
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
 }
+
+.loginM a {
+	text-decoration: none;
+	color: white;
+}
+
+.loginM a:hover {
+	color: red;
+}
+
+.signIU {
+	float: right;
+}
+
+.main {
+	height: 100px;
+}
+
+.homeimg {
+	float: left;
+}
+/*----------------------------------------------------*/
+
 /*----------------------------------------------------*/
 
 #content { /* 본문 */
@@ -96,12 +124,13 @@
 .menubarLink:hover {
 	color: black;
 }
-
+/* 수정 */
 .menubarLink .subLink:hover {
 	color: black;
 	background-color: #f1f1f1;
+	text-decoration: none;	/* 추가 */
+	
 }
-
 .menubarLink:hover .submenu {
 	display: inline;
 }
@@ -130,16 +159,19 @@
 	background: #099;
 }
 
+/* 수정 */
 .submenu {
+	color: white;
+	background: #099;		/*바탕네모 청록색 #099*/
 	display: none;
 	list-style: none;
 	padding-left: 0px;
 }
-
+/*수정*/
 .subLink {
 	display: block;
 	text-align: center;
-	text-decoration: none;
+	color: #fff;			/*추가*/
 	list-style: none;
 	text-align: center;
 }
@@ -174,6 +206,22 @@
 	<div id="container">
 		<div id="header">
 			<h1 class="header-text">로그인(homeSignin.jsp)</h1>
+
+<div class="main">
+				<div class="loginM">
+					<div class="homeimg">
+						<a href="#"><span
+							class="glyphicon glyphicon-education"></span></a>
+					</div>
+					<div class="signIU">
+						<a href="homeMain.jsp">HOME</a>&nbsp;&nbsp; <a href="">MYPAGE</a>&nbsp;&nbsp;
+						<input type="text"> <a href="#"><span
+							class="glyphicon glyphicon-search"></span></a> &nbsp;&nbsp; <a
+							href="homeSignUp.jsp">SIGN IN</a>&nbsp;&nbsp; <a href="homeSignin.jsp">SIGN UP</a>
+					</div>
+				</div>
+			</div>
+
 
 			<div id="Meme">
 				<!--  메뉴바 -->
@@ -252,11 +300,6 @@
 					</form>
 				</div>
 
-
-
-
-
-
 			</div>
 		</div>
 		<div id="footer">
@@ -265,5 +308,10 @@
 
 
 	</div>
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
 </body>
 </html>

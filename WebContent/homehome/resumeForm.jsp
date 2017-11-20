@@ -4,12 +4,42 @@
 <html>
 <head>
 
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>이력서(resumeForm.jsp)</title>
 <style type="text/css">
 
+/*---------------------------------------------*/
+.loginM {
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+}
+
+.loginM a {
+	text-decoration: none;
+	color: white;
+}
+
+.loginM a:hover {
+	color: red;
+}
+
+.signIU {
+	float: right;
+}
+
+.main {
+	height: 100px;
+}
+
+.homeimg {
+	float: left;
+}
+/*----------------------------------------------------*/
 #content { /* 본문 */
-	width:70%;
+	width:80%;
 	height: auto;
 	margin: 100px auto;
 	padding: 20px 0;
@@ -73,12 +103,13 @@
 .menubarLink:hover {
 	color: black;
 }
-
+/* 수정 */
 .menubarLink .subLink:hover {
-	color:black;
+	color: black;
 	background-color: #f1f1f1;
+	text-decoration: none;	/* 추가 */
+	
 }
-
 .menubarLink:hover .submenu {
 	display: inline;
 }
@@ -106,17 +137,19 @@
 	color: white;
 	background: #099;
 }
-
+/* 수정 */
 .submenu {
+	color: white;
+	background: #099;		/*바탕네모 청록색 #099*/
 	display: none;
 	list-style: none;
 	padding-left: 0px;
 }
-
+/*수정*/
 .subLink {
 	display: block;
 	text-align: center;
-	text-decoration: none;
+	color: #fff;			/*추가*/
 	list-style: none;
 	text-align: center;
 }
@@ -170,26 +203,24 @@
 		<div id="container">
 			<!-- container -->
 			<div id="header">
-			<div class="main">
-		
-					<div class="homeimg">
 			
-	
-				<h1 class="header-text">이력서작성(resumeForm.jsp)</h1>
-				
+			<h1 class="header-text">이력서작성(resumeForm.jsp)</h1>
+				<div class="main">
 				<div class="loginM">
-		
+					<div class="homeimg">
 						<a href="#"><span
-							class="glyphicon glyphicon-education"></span> </a>
+							class="glyphicon glyphicon-education"></span></a>
 					</div>
 					<div class="signIU">
-						<a href="">HOME</a>&nbsp;&nbsp; <a href="">MYPAGE</a>&nbsp;&nbsp;
+						<a href="homeMain.jsp">HOME</a>&nbsp;&nbsp; <a href="">MYPAGE</a>&nbsp;&nbsp;
 						<input type="text"> <a href="#"><span
 							class="glyphicon glyphicon-search"></span></a> &nbsp;&nbsp; <a
-							href="">SIGN IN</a>&nbsp;&nbsp; <a href="">SIGN UP</a>
+							href="homeSignUp.jsp">SIGN IN</a>&nbsp;&nbsp; <a href="homeSignin.jsp">SIGN UP</a>
 					</div>
 				</div>
 			</div>
+	
+		
 				
 			<div id="Meme">
 				<!--  메뉴바 -->
@@ -309,5 +340,6 @@
 		src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script
 		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </body>
 </html>

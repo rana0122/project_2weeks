@@ -3,8 +3,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<!-- Bootstrap -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 
@@ -63,6 +63,8 @@
 .menubarLink .subLink:hover {
 	color: black;
 	background-color: #f1f1f1;
+	text-decoration: none;
+	
 }
 
 .menubarLink:hover .submenu {
@@ -81,7 +83,7 @@
 	line-height: 40px;
 	width: 17.5%;
 	background: #2B3137;
-	color: #fff;
+	color: #fff;					/*큰 메뉴 글자 흰색 #fff*/
 	font-size: 12px;
 	font-family: "돋움";
 	padding: 5px;
@@ -89,11 +91,13 @@
 }
 
 .menuLink:hover { /* 스포츠(메뉴) 에 마우스오버할때 글씨색 바뀜*/
-	color: white;
+	color: #fff;	
 	background: #099;
 }
 
 .submenu {
+	color: white;
+	background: #099;		/*바탕네모 청록색 #099*/
 	display: none;
 	list-style: none;
 	padding-left: 0px;
@@ -102,7 +106,7 @@
 .subLink {
 	display: block;
 	text-align: center;
-	text-decoration: none;
+	color: #fff;	
 	list-style: none;
 	text-align: center;
 }
@@ -146,10 +150,10 @@
 							class="glyphicon glyphicon-education"></span></a>
 					</div>
 					<div class="signIU">
-						<a href="">HOME</a>&nbsp;&nbsp; <a href="">MYPAGE</a>&nbsp;&nbsp;
+						<a href="homeMain.jsp">HOME</a>&nbsp;&nbsp; <a href="">MYPAGE</a>&nbsp;&nbsp;
 						<input type="text"> <a href="#"><span
 							class="glyphicon glyphicon-search"></span></a> &nbsp;&nbsp; <a
-							href="">SIGN IN</a>&nbsp;&nbsp; <a href="">SIGN UP</a>
+							href="homeSignUp.jsp">SIGN IN</a>&nbsp;&nbsp; <a href="homeSignin.jsp">SIGN UP</a>
 					</div>
 				</div>
 			</div>
@@ -299,7 +303,7 @@
 
 	</div>
 	<!-- container끝 -->
-	<script
+ 	<script
 		src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script
 		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

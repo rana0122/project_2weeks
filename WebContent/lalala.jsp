@@ -148,8 +148,6 @@
 			
 					<a href="">SIGN IN</a>&nbsp&nbsp <a href="">SIGN UP</a></div>
 			</div>
-
-			
 		</div>
 				<div id="Meme">
 				<!--  메뉴바 -->
