@@ -45,7 +45,7 @@ body{
 	color: white; 
 	background-color: #2B3137;
 	float: left; 											/* 왼쪽으로 나열되도록 설정 */
-	line-height: 40px;								 /* 텍스트 한 줄의 높이를 30px로 설정 */
+	line-height: 30px;								 /* 텍스트 한 줄의 높이를 30px로 설정 */
 	text-align: center; /* 텍스트를 가운데로 정렬 */
 	text-decoration: none; /* a 태그의 꾸밈 효과 제거 */
 	display: block; /* a 태그의 클릭 범위를 넓힘 */
@@ -64,23 +64,11 @@ body{
 	font-weight: bold; /* 폰트를 굵게 설정 */
 	margin-top: -1px; /* 위 칸의 하단 테두리와 아래칸의 상단 테두리가 겹쳐지도록 설정 */
 }
-.submenu{
-	position:absolute;
-	height: 0px;
-	overflow: hidden;
-	width: 100%;
-	
-	background-color: #DDD;
-	
-}
-.submenu li{
-	display:inline-block;
-	
-}
 
 #footer {
 	text-align: center;
 	background-color: #f1f1f1;
+	border: 1px solid #e9e9e9;
 	font-size: 0.625em;
 	width: 100%;
 }
